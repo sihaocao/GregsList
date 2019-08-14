@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Greg's List</title>
+  <meta charset="utf-8">
+  <meta name="description" content="A site for finding software jobs">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="GregsList.css">
+</head>
+
+<body>
+
+    <nav class="top-nav">
+        <h1 class="logo">Greg's List</h1>
+        <ul class="nav-links">
+            <li><a href="#some-post-link">Post</a></li>
+            <li><a href="#some-account-link">Account</a></li>
+        </ul>
+    </nav>
+
+    <section class="search-section">
+    <form role="form" class="search-jobs" action="/search" method="post">
+        <fieldset>
+            <label class="form-input-label" for="search">Search Jobs</label>
+            <input class="form-input" type="text" name="search" id="search" placeholder="Search software jobs" />
+            <input type="image" class="search-button magnifying-glass-icon" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" alt="search" role="button" />
+        </fieldset>
+    </form>
+    </section>
+
+    <nav class="search-pages">
+        <a class="pages-button" href="#previous-page">&lt; prev</a>
+        <span class="pages-display">1 to 100 of 179</span>
+        <a class="pages-button" href="next-page">next &gt;</a>
+    </nav>
+
+    <section class="jobs">
+    <ul class="job-listings">
+        <li class="date">July 1</li>
+        <li class="position"><a href="#position-1">Technical Project Manager</a></li>
+        <li class="location">Midtown East</li>
+    </ul>
+    <ul class="job-listings">
+        <li class="date">July 2</li>
+        <li class="position"><a href="#position-2">Frontend Developer</a></li>
+        <li class="location">Soho</li>
+    </ul>
+    <ul class="job-listings">
+        <li class="date">July 3</li>
+        <li class="position"><a href="#position-3">Senior Python Developer / Cofounder</a></li>
+        <li class="location">Flatiron</li>
+    </ul>
+    <ul class="job-listings">
+            <li class="date">July 4</li>
+            <li class="position"><a href="#position-4">Backend Developer</a></li>
+            <li class="location">Lower East Side</li>
+    </ul>
+    <ul class="job-listings">
+            <li class="date">July 5</li>
+            <li class="position"><a href="#position-5">Junior JavaScript Engineer</a></li>
+            <li class="location">Upper West Side</li>
+    </ul>
+    </section>
+
+</body>
+
+</html>
